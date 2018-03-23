@@ -1,0 +1,46 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xinxindai.api.config.http.HttpClientProperties",
+      "name": "spring.httpClient",
+      "type": "com.xinxindai.api.config.http.HttpClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xinxindai.api.config.http.HttpClientProperties",
+      "defaultValue": "agent",
+      "name": "spring.httpClient.agent",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xinxindai.api.config.http.HttpClientProperties",
+      "defaultValue": 1000,
+      "name": "spring.httpClient.connect-time-out",
+      "description": "连接超时时间",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xinxindai.api.config.http.HttpClientProperties",
+      "defaultValue": 10,
+      "name": "spring.httpClient.max-conn-per-route",
+      "description": "最大连接数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xinxindai.api.config.http.HttpClientProperties",
+      "defaultValue": 50,
+      "name": "spring.httpClient.max-conn-totaol",
+      "description": "总连接数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xinxindai.api.config.http.HttpClientProperties",
+      "defaultValue": 10000,
+      "name": "spring.httpClient.socket-time-out",
+      "description": "读超时时间",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+com\xinxindai\api\config\RestAutoConfig$FastJsonHttpMessageConverter5.class
+com\xinxindai\api\common\RestCode.class
+com\xinxindai\api\config\RestAutoConfig.class
+com\xinxindai\api\controller\TestController.class
+META-INF\spring-configuration-metadata.json
+com\xinxindai\api\config\HttpClientAutoConfiguration.class
+com\xinxindai\api\config\HttpClientProperties.class
+com\xinxindai\api\config\RestAutoConfig$RestTemplateConfig.class
+com\xinxindai\api\ApiGatewayApplication.class
+com\xinxindai\api\common\RestResponse.class
+com\xinxindai\api\controller\TestController$1.class
+com\xinxindai\api\config\GenericRest.class

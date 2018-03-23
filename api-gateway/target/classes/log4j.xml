@@ -1,0 +1,33 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<configuration status = "debug">-->
+    <!--<appenders>-->
+        <!--<Console name="STDOUT">-->
+            <!--&lt;!&ndash;控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）&ndash;&gt;-->
+            <!--<thresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />-->
+            <!--&lt;!&ndash; 年月日  线程名  输出级别 msg &ndash;&gt;-->
+            <!--<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level - %msg%n " charset="UTF-8" />-->
+        <!--</Console>-->
+
+        <!--<RollingRandomAccessFile name="FILE-INFO" fileName="../logs/info/apiGateway-info.log"-->
+                                 <!--filePattern="../logs/info/apiGateway-info.%d{yyyy-MM-dd}.log">-->
+            <!--<thresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />-->
+            <!--<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level - %msg%n " charset="UTF-8" />-->
+            <!--&lt;!&ndash; 24小时滚动一次 &ndash;&gt;-->
+            <!--<TimeBasedTriggeringPolicy interval="24" />-->
+        <!--</RollingRandomAccessFile>-->
+
+    <!--</appenders>-->
+
+    <!--&lt;!&ndash; 可以同步的也可以异步的 &ndash;&gt;-->
+    <!--<loggers>-->
+        <!--&lt;!&ndash;异步的 swagger输出关闭 &ndash;&gt;-->
+        <!--<AsyncLogger name="springfox" level="OFF"></AsyncLogger>-->
+        <!--&lt;!&ndash; 打印行号 &ndash;&gt;-->
+        <!--<AsyncRoot level="INFO" includeLocation="true">-->
+            <!--<AppenderRef ref="FILE-INFO"/>-->
+            <!--<AppenderRef ref="FILE-WARN"/>-->
+            <!--<AppenderRef ref="FILE-ERROR"/>-->
+            <!--<AppenderRef ref="STDOUT"/>-->
+        <!--</AsyncRoot>-->
+    <!--</loggers>-->
+<!--</configuration>-->
